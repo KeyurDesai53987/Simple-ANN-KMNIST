@@ -24,3 +24,10 @@ python3 main.py
 ```
 ## Results
 - You can find the results of code in the same directory named 'Results.csv' and 'Test Results.csv'
+- we got Test Accuracy as below
+
+| -- | Optimizer | Learning Rate | Batch Size | Test Accuracy |
+| -- | -- | -- | -- | -- |
+| 0 | adam | 0.0001 | 32 | 0.9179 |
+| 1 | rmsprop | 0.0010 | 64 | 0.9167 |
+| 2 | adamw | 0.0010 | 128 | 0.9134 |
