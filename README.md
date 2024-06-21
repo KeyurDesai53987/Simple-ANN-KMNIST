@@ -3,7 +3,7 @@
 - Code of Simple Artificial Neural Network Model for KMNIST Datasets
 ## Requirements
 - **Python 3.11**
-install PyTorch-CUDA using the below line on your virtual environment (Make sure you have already installed cuda on your device)
+- install PyTorch-CUDA using the below line on your virtual environment (Make sure you have already installed cuda on your device)
 ```
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 ```
