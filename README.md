@@ -1,6 +1,6 @@
 # Simple-ANN-KMNIST
 ## Introduction
-- Simple ANN Model to train on KMNIST datasets 
+- Code of Simple Artificial Neural Network Model for KMNIST Datasets
 ## Requirements
 - **Python 3.11**
 - install PyTorch-CUDA using the below line on your virtual environment (Make sure you have already installed cuda on your device)
@@ -28,6 +28,6 @@ python3 main.py
 
 | -- | Optimizer | Learning Rate | Batch Size | Test Accuracy |
 | -- | -- | -- | -- | -- |
-| 0 | adam | 0.002713946 | 64 | 0.9317 |
-| 1 | rmsprop | 0.002713946 | 64 | 0.9252 |
-| 2 | adamw | 0.002713946 | 64 | 0.9214 |
+| 0 | adam | 0.0001 | 32 | 0.9179 |
+| 1 | rmsprop | 0.0010 | 64 | 0.9167 |
+| 2 | adamw | 0.0010 | 128 | 0.9134 |
